@@ -1,0 +1,1 @@
+require.config({baseUrl:"./js",paths:{tools:"tools"}}),require(["tools"],function(){require(["info"],function(e){e()})}),define("info",["jquery","tip"],function(e,t){return function(){e("#info").on("click",function(){t.info({message:"这是一个测试页面"})})}});

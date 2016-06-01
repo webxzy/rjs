@@ -1,0 +1,136 @@
+h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px
+}
+
+.box {
+    width: 745px;
+    padding: 20px;
+    border: 1px solid #888;
+    margin: 10px auto;
+    overflow: hidden
+}
+
+.list {
+    margin-top: 10px;
+    background: #eee;
+    padding: 5px;
+    height: 490px;
+}
+
+.list li {
+    margin-bottom: 10px
+}
+
+.list a {
+    font: 12px "微软雅黑";
+    color: #000;
+}
+
+dl {
+    float: left;
+    width: 600px;
+    margin-bottom: 10px
+}
+
+dt,
+dd {
+    float: left;
+    font: 16px "微软雅黑";
+}
+
+dt {
+    font-weight: bold
+}
+
+dd {
+    margin-right: 10px;
+    font-size: 14px
+}
+
+p {
+    text-indent: 32px;
+    color: #666;
+    font: 14px/28px "微软雅黑"
+}
+
+.list span {
+    float: left;
+    padding: 0 5px;
+    font: 16px "微软雅黑";
+}
+
+#footer {
+    height: 26px;
+    display: table;
+    margin: 10px auto 0;
+}
+
+#footer input {
+    float: left;
+    height: 24px;
+}
+
+#page {
+    display: table;
+    float: left;
+    overflow: hidden;
+    margin: 0 2px;
+}
+
+#page a {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    float: left;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #000000\9
+}
+
+#page a.active {
+    background: #333;
+}
+
+#left {
+    width: 100px;
+    float: left;
+    margin-top: 28px;
+    margin-right: 5px
+}
+
+#right {
+    width: 640px;
+    float: left;
+    overflow: hidden
+}
+
+#left a {
+    display: block;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #aaa;
+}
+
+#left a:hover {
+    background: #666
+}
+
+#left a.show {
+    background: #666
+}
+
+.select {
+    text-align: right;
+}
+
+#status {
+    display: inline-block;
+}
